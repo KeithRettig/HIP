@@ -1,0 +1,55 @@
+# HIP 87: Proportional Service Provider Rewards
+- Author(s): [@KeithRettig](https://github.com/KeithRettig), [@zer0tweets](https://github.com/zer0tweets), [@meowshka](https://github.com/meowshka)
+- Start Date: 2023-05-15
+- Category: Economic, Technical
+- Original HIP PR: [#699](https://github.com/helium/HIP/pull/699)
+- Tracking Issue: [#704](https://github.com/helium/HIP/issues/704)
+- Voting Requirements: veMOBILE Holders
+
+***
+
+## Summary
+This HIP proposes to make specific how Service Providers are eligible for rewards from the HIP-53 specified Service Provider MOBILE Reward bucket. The proposal suggests a usage-based approach to calculate rewards for Service Providers based on the amount of Data Credits burned. Service Providers would be rewarded in MOBILE tokens at a 1:1 ratio for the burned Data Credits with proportional distribution if the total exceeds the reward bucket value.
+
+***
+
+## Proposal Details:
+**If this proposal passes, the following changes will be made to the Helium Network:**
+
+To prevent a scenario in which a Service Provider is rewarded the full MOBILE Service Provider Reward Bucket while burning little to no Data Credits (DC), we propose to follow a similar usage-based approach as outlined in HIP-10 for the IoT Network. We propose that Service Providers are rewarded up to 1:1 in MOBILE tokens for the amount of DC burned during a reward period, similar to the approach in HIP-10. If the Service Providers collectively burn more DC than the equivalent amount of MOBILE tokens in the Service Provider reward bucket, each Service Provider will be rewarded proportionally to its share of DC burn. If the Service Providers collectively burn less DC than the equivalent amount of MOBILE tokens, the remainder of the Service Provider bucket will not be minted.
+
+Voting for this proposal will place your veMOBILE in support of the changes and additions outlined above.
+Unless otherwise noted, the changes and additions listed above are subject to implementation by the Helium Core Developers.
+
+**If this proposal does not pass within 7 days, then it will expire and will not have any effects on the Helium Network.**
+
+***
+
+## Approval Requirements:
+This HIP is considered approved if 67% of the voting power is reached.
+This HIP must reach the quorum of 100,000,000 veMOBILE to be considered valid.
+
+***
+
+## Review
+Community debate on these topics can be found on the Helium Discord. Please review any necessary discussion or consult with other community members to inform your position before voting.
+Additionally, these changes may have been discussed further in recent Community Calls. Video for these calls is available to review [here](https://helium.foundation/community-call).
+
+***
+
+## Resources
+Additional information about the Governance process can be found in [Helium Docs](https://docs.helium.com/).
+
+To participate in future Governance calls, please join the Community monthly on the last Wednesday of each month at 16:00 UTC.
+
+You can read the full HIP-87 text [here](https://github.com/helium/HIP/blob/main/0087-proportional-service-provider-rewards.md).
+
+Join the conversation on Discord and see the #hip-87-proportional-service-provider-rewards channel for more details.
+	https://discord.com/channels/404106811252408320/1119291850113699870
+
+***
+
+**Disclaimer:** The Helium Network's rules for voting differ from the default rules on Realms.
+*As a result, viewing the results on [realms.today](https://app.realms.today/dao/mobile) is not representative of the actual outcome under the Helium Network's rules for HIP voting. For the correct results, please make sure to view on [Helium MOBILE Realms](https://realms.heliumvote.com/dao/mobile) or the summary of HIPs on [Github](https://github.com/helium/HIP#readme).*
+
+***
